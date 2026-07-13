@@ -9,9 +9,3 @@
 - [Reference Data](guide/reference-data.md)
 - [Administration](guide/administration.md)
 - [Keyboard Shortcuts](guide/keyboard-shortcuts.md)
-
-- **Technical**
-- [Architecture](technical/architecture.md)
-- [PostgreSQL Performance](technical/performance.md)
-- [CRUD Tests](technical/crud-tests.md)
-- [Turso Setup](technical/turso-setup.md)

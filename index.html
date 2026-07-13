@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HelloID Vault Management</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="HelloID Vault Management - HR data anonymization and management tool">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .app-nav { display: none; }
+    .sidebar { padding-top: 20px; }
+    .sidebar-nav h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    .cover { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+    .cover h1 { font-size: 2.5rem; }
+    .cover .tagline { font-size: 1.2rem; opacity: 0.8; }
+    .cover-main { padding-top: 40px; }
+    .cover .button {
+      display: inline-block;
+      padding: 10px 28px;
+      margin: 0 6px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.4;
+      border-radius: 4px;
+      border: 1px solid var(--theme-color, #0f3460);
+      background: var(--theme-color, #0f3460);
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .cover .button:hover {
+      background: #1a4a80;
+      border-color: #1a4a80;
+    }
+    .cover-main .buttons {
+      margin-top: 24px;
+      white-space: nowrap;
+    }
+    .cover button {
+      font-family: inherit;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'HelloID Vault Management',
+      repo: 'mc303/HelloID.Vault.Management',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      coverpage: true,
+      search: {
+        placeholder: 'Search documentation...',
+        noData: 'No results found.',
+        depth: 3
+      },
+      themeColor: '#0f3460',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+</body>
+</html>

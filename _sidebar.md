@@ -1,0 +1,17 @@
+- [Home](/)
+- [Getting Started](guide/getting-started.md)
+- [Database Setup](guide/database-setup.md)
+- [Importing Data](guide/importing-data.md)
+- [Anonymization](guide/anonymization.md)
+- [Managing Persons](guide/managing-persons.md)
+- [Managing Contracts](guide/managing-contracts.md)
+- [Managing Contacts](guide/managing-contacts.md)
+- [Reference Data](guide/reference-data.md)
+- [Administration](guide/administration.md)
+- [Keyboard Shortcuts](guide/keyboard-shortcuts.md)
+
+- **Technical**
+- [Architecture](technical/architecture.md)
+- [PostgreSQL Performance](technical/performance.md)
+- [CRUD Tests](technical/crud-tests.md)
+- [Turso Setup](technical/turso-setup.md)
